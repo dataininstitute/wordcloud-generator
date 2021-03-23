@@ -5,11 +5,6 @@ import streamlit as st
 from wordcloud import WordCloud, STOPWORDS, ImageColorGenerator
 
 st.set_option('deprecation.showPyplotGlobalUse', False)
-st.set_page_config(
-     page_title="Wordcloud generator",
-     page_icon="🚀",
-     layout="wide",
-     initial_sidebar_state="expanded" )
 
 st.sidebar.image("image.png")
 
