@@ -6,7 +6,7 @@ from wordcloud import WordCloud, STOPWORDS, ImageColorGenerator
 
 st.set_option('deprecation.showPyplotGlobalUse', False)
 
-#st.sidebar.image("image.png")
+st.sidebar.image("image.png",use_column_width='auto')
 
 # fonction pour definir le wordcloud
 def cloud(image, text, max_word, max_font, random,colormap,background_color):
